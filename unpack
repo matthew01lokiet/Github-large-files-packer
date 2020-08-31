@@ -1,0 +1,12 @@
+#!/bin/bash
+cd $1
+echo "Joining... "
+cat file* > file.tar.gz
+cd ..
+mv $1/file.tar.gz .
+rm -r -f $1
+echo "Unpacking... "
+tar -xzvf file.tar.gz
+rm -f file.tar.gz
+echo "Done... "
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Compressing... "
+tar -cvvzf file.tar.gz $1
+echo "Splitting... "
+split -b 100M -d file.tar.gz file
+rm -r -f $1 file.tar.gz
+mkdir $1
+mv file* $1
+echo "File successfully packed."
