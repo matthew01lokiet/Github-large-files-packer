@@ -1,4 +1,4 @@
-![alt text](https://github.com/matthew01lokiet/Github-large-files-packer/blob/master/project_glfp.png?raw=true "Header")
+![alt text](https://images2.imgbox.com/d0/c5/qf9CJPpj_o.png?raw=true "Header")
 ## 📖 Short description:<br>
 Two bash scripts that pack file or folder larger than 100MB by compressing and splitting content into 100MB files, 
 bypassing the explicit need of Github LFS usage.<br>
